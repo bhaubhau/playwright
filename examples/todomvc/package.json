@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "test": "playwright test",
-    "ctest": "playwright test --project=chromium",
+    "ctest": "playwright test --project=chromium --ui",
     "ftest": "playwright test --project=firefox",
     "wtest": "playwright test --project=webkit"
   },
